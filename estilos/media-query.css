@@ -98,18 +98,19 @@ div > hr {
     section#central > div#rodape {
         background: url(../imagens/RP2.png) no-repeat;
         width: 270px;
-        height: 20vh;
+        height: 120px;
         display: block;
         background-size: cover;
-        transform: translate(95%, -115%);
+        transform: translate(95%, -158%);
     }
+    
     div > hr {
         background-color: #30D9A9;
         background-size: contain;
         width: 810px;
-        height: 8vh;
+        height: 55px;
         border: none;
-        transform: translate(-28%, 615%);
+        transform: translate(-28%, 570%);
     }
 
     #tt1 {

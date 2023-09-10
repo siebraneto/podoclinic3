@@ -151,7 +151,7 @@ div > hr {
     background-color: #30D9A9;
     background-size: contain;
     width: 200px;
-    height: 7vh;
+    height: 50px;
     border: none;
     transform: translate(0%, 740%);
 }
