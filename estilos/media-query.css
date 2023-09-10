@@ -63,7 +63,22 @@ div > hr {
 
 section#redes-sociais {
     padding: 5px;
+    transform: translate(0px, 80px);
 }
+
+section#redes-sociais img {
+    width: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.434);
+    
+   }
+   section#redes-sociais2 img {
+    width: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.434);
+   }
 
 }
 
@@ -127,12 +142,40 @@ section#redes-sociais {
         font-family: Arial, Helvetica, sans-serif;
         padding: 3px;
         text-align: left;
-        font-size: 9px;
-        transform: translate(13px, 0%);
+        font-size: 20px;
+        transform: translate(10px, 0%);
+    }
+
+    #tt2 {
+        text-decoration: none;
+        color: rgb(225, 242, 241);
+        font-weight: bold;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.499);
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 3px;
+        text-align: left;
+        font-size: 20px;
+        transform: translate(10px, 0%);
     }
 
     section#redes-sociais {
         padding: 5px;
+        transform: translate(0px, 10px);
     }
-    
+
+    section#redes-sociais img {
+        width: 80px;
+        margin: 10px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.434);
+        
+       }
+       section#redes-sociais2 img {
+        width: 80px;
+        margin: 10px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.434);
+       }
+
+       
 }
