@@ -57,24 +57,48 @@ div > hr {
     font-family: Arial, Helvetica, sans-serif;
     padding: 3px;
     text-align: left;
-    font-size: 9px;
-    transform: translate(13px, 0%);
+    font-size: 15px;
+    transform: translate(190px, -25px);
+}
+
+#tt2 {
+    text-decoration: none;
+    color: rgb(225, 242, 241);
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.499);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+    text-align: left;
+    font-size: 15px;
+    transform: translate(150px, -27px);
 }
 
 section#redes-sociais {
+    display: inline-flex;
     padding: 5px;
-    transform: translate(0px, 80px);
+    padding-top: 15%;
+    transform: translate(100px, -30px);
 }
 
 section#redes-sociais img {
-    width: 60px;
+    width: 75px;
     margin: 10px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.434);
     
    }
+
+   section#redes-sociais2 {
+    display: inline-flex;
+    text-align: left;
+    padding: 3px;
+    color: white;    
+    font-size: 9px;
+    transform: translate(-80px, -1px);    
+}
+
    section#redes-sociais2 img {
-    width: 60px;
+    width: 75px;
     margin: 10px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.434);
