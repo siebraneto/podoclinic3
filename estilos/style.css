@@ -21,8 +21,8 @@ main {
     width: 100vw;
 }
 
-section#central{
-    background-image: linear-gradient(to top, #0b837f, rgb(67, 168, 168));
+section#central {
+    background-image: url(../imagens/fundo.jpeg);
     width: 258px;
     height: 535px;
     border-radius: 20px;
@@ -60,6 +60,7 @@ section#central2 > div#celular {
 
 section#central > div#rodape {
     background: url(../imagens/RP2.png);
+    border: none;
     width: 270px;
     height: 140px;
     display: block;
@@ -124,7 +125,7 @@ section#redes-sociais2 img:hover {
     padding: 3px;
     text-align: left;
     font-size: 9px;
-    transform: translate(1.8%, 0%);
+    transform: translate(1.5%, 0%);
 }
 
 #tt2 {
@@ -139,6 +140,14 @@ section#redes-sociais2 img:hover {
     transform: translate(0%, 0%);
 }
 
+div > hr {
+    background-color: #30D9A9;
+    background-size: contain;
+    width: 95vw;
+    height: 7vh;
+    border: none;
+    transform: translate(-50%, 740%);
+}
 
 
 
