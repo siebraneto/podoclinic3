@@ -12,7 +12,7 @@ body, html {
     height: 100vh;
     width: 100vh;
     overflow-y: hidden;
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 main {
@@ -29,8 +29,15 @@ section#central {
     position: absolute;
     top: 50%;
     left: 50%;
-    overflow-y: hidden;
-    overflow-x: hidden;
+    section#central > div#rodape {
+    background: url(../imagens/RP2.png);
+    border: none;
+    width: 250px;
+    height: 140px;
+    display: block;
+    background-size: contain;
+    transform: translate(1%, -105%);
+}
     box-shadow: 1px 1px 500px rgba(0, 0, 0, 0.451);
     transform: translate(-50%, -50%);
 }
@@ -61,11 +68,11 @@ section#central2 > div#celular {
 section#central > div#rodape {
     background: url(../imagens/RP2.png);
     border: none;
-    width: 270px;
+    width: 250px;
     height: 140px;
     display: block;
     background-size: contain;
-    transform: translate(0%, -110%);
+    transform: translate(1%, -105%);
 }
 
 section#redes-sociais {
@@ -143,10 +150,10 @@ section#redes-sociais2 img:hover {
 div > hr {
     background-color: #30D9A9;
     background-size: contain;
-    width: 95vw;
+    width: 200px;
     height: 7vh;
     border: none;
-    transform: translate(-50%, 740%);
+    transform: translate(0%, 740%);
 }
 
 

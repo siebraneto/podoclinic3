@@ -3,13 +3,16 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
 body {
     width: 100vw;
+    
 }
 
     section#central {
-        width: 44vw;
+        width: 420px;
         height: 300px;
         box-shadow: 1px 1px 500px rgba(0, 0, 0, 0.451);
-}
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
 
 section#central > div#eu {
     transform: translate(90px, 3%);
@@ -28,12 +31,22 @@ section#central2 > div#celular {
 }
 
 section#central > div#rodape {
-    background: url(../imagens/RP2.png) no-repeat;
-    width: 30vw;
-    height: 50%;
+    background: url(../imagens/RP2.png);
+    border: none;
+    width: 250px;
+    height: 140px;
     display: block;
-    background-size: cover;
-    transform: translate(40%, -250%);
+    background-size: contain;
+   transform: translate(35%, -260%);
+}
+
+div > hr {
+    background-color: #30D9A9;
+    background-size: contain;
+    width: 422px;
+    height: 50px;
+    border: none;
+    transform: translate(-20%, 385%);
 }
 
 }
@@ -44,10 +57,12 @@ section#central > div#rodape {
     }
     
         section#central {
-            width: 53.5vw;
+            width: 820px;
             height: 464px;
             box-shadow: 1px 1px 500px rgba(0, 0, 0, 0.451);
             transform: translate(-412px, -58%);
+            overflow-y: hidden;
+    overflow-x: hidden;
     }
     
     section#central > div#eu {
@@ -70,19 +85,19 @@ section#central > div#rodape {
     
     section#central > div#rodape {
         background: url(../imagens/RP2.png) no-repeat;
-        width: 20vw;
+        width: 270px;
         height: 20vh;
         display: block;
         background-size: cover;
-        transform: translate(75%, -115%);
+        transform: translate(95%, -115%);
     }
     div > hr {
         background-color: #30D9A9;
         background-size: contain;
-        width: 95vw;
+        width: 810px;
         height: 8vh;
         border: none;
-        transform: translate(-50%, 615%);
+        transform: translate(-28%, 615%);
     }
     
 }
