@@ -29,17 +29,7 @@ section#central {
     position: absolute;
     top: 50%;
     left: 50%;
-    section#central > div#rodape {
-    background: url(../imagens/RP2.png);
-    border: none;
-    width: 250px;
-    height: 140px;
-    display: block;
-    background-size: contain;
-    transform: translate(1%, -105%);
-}
-    box-shadow: 1px 1px 500px rgba(0, 0, 0, 0.451);
-    transform: translate(-50%, -50%);
+    transform: translate(-130px, -270px);
 }
 
 section#central > div#eu {
