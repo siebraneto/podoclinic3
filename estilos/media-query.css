@@ -58,7 +58,7 @@ div > hr {
     padding: 3px;
     text-align: left;
     font-size: 15px;
-    transform: translate(190px, -25px);
+    transform: translate(230px, -25px);
 }
 
 #tt2 {
@@ -70,6 +70,7 @@ div > hr {
     padding: 3px;
     text-align: left;
     font-size: 15px;
+    white-space: nowrap;
     transform: translate(150px, -27px);
 }
 
@@ -77,11 +78,11 @@ section#redes-sociais {
     display: inline-flex;
     padding: 5px;
     padding-top: 15%;
-    transform: translate(100px, -30px);
+    transform: translate(4%, 15%);
 }
 
 section#redes-sociais img {
-    width: 75px;
+    width: 80px;
     margin: 10px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.434);
@@ -94,11 +95,11 @@ section#redes-sociais img {
     padding: 3px;
     color: white;    
     font-size: 9px;
-    transform: translate(-80px, -1px);    
+    transform: translate(-80px, -2px);    
 }
 
    section#redes-sociais2 img {
-    width: 75px;
+    width: 80px;
     margin: 10px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.434);
